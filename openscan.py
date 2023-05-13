@@ -12,8 +12,8 @@ TMP_IMG_DIR = "/tmp/pic-openscan-asdf1234"
 class OpenScanRobot(object):
     ROTOR_ANGLE_MAX = 100
 
-    _ringlight_on = False
-    _should_home = False
+    _ringlight_on = True
+    _should_home = True
     _rotor_angle = 0
     _turntable_angle = 0
 
