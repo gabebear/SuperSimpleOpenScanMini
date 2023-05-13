@@ -10,7 +10,7 @@ import RPi.GPIO as GPIO
 TMP_IMG_DIR = "/tmp/pic-openscan-asdf1234"
 
 class OpenScanRobot(object):
-    ROTOR_ANGLE_MAX = 100
+    ROTOR_ANGLE_MAX = 115
 
     _ringlight_on = True
     _should_home = True
